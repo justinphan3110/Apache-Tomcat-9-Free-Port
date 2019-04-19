@@ -75,6 +75,7 @@ port number(s).
 
 ![image](https://user-images.githubusercontent.com/44376091/56438158-f45c4f80-62af-11e9-89b1-0ef219db6956.png)
 
+#### You can test the server through http://localhost:8080/project-name/file-name.html
 
 ## Author
   [Long Phan](https://github.com/justinphan3110)
