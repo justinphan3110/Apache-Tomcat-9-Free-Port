@@ -54,13 +54,22 @@ port number(s).
 ### Setting up Tomcat Sever using cargo-maven2-plugin on Eclipse.
 ##### Insert the following plugin into your <plugins><plugins> in pom.xml file of your Maven Project
  ```
-Several ports (8005, 8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running 
-
-in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the 
-
-port number(s).
+<plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>1.6.7</version>
+				<configuration>
+					<container>
+						<containerId>tomcat9x</containerId>
+						<type>embedded</type>
+					</container>
+				</configuration>	
+			</plugin>
 
 ```
+##### Right click on the pom.xml file and RunAs --> Maven Build... --> In the Edit Configuration Windows, type Cargo:Run in the Goals Box 
+
+![image](https://user-images.githubusercontent.com/44376091/56437998-726c2680-62af-11e9-880c-a7e8c35bb8ac.png)
 
 
 ## Author
