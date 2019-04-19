@@ -43,16 +43,16 @@ port number(s).
 ![image](https://user-images.githubusercontent.com/44376091/56437583-04732f80-62ae-11e9-90d3-71fb5ffda143.png)
 
 
-### Source Code 
+###  :large_blue_circle: Source Code 
  ##### The Project Code can be access [here](https://github.com/justinphan3110/Apache-Tomcat-9-Free-Port/tree/master/Aapache%20Tomcat%209%20Free%20Port%20(for%20Developer)/Tomcat9xPortInUse) 
  
  ### Build With
 * [JavaFX](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm)
 * [JavaFX Dialog](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Dialog.html)
 
-## More Resources 
-### Setting up Tomcat Sever using cargo-maven2-plugin on Eclipse.
-##### Insert the following plugin into your <plugins><plugins> in pom.xml file of your Maven Project
+##  :large_blue_circle: More Resources 
+### :page_facing_up: Setting up Tomcat Sever using cargo-maven2-plugin on Eclipse.
+#### Insert the following plugin into your <plugins><plugins> in pom.xml file of your Maven Project
  ```
 <plugin>
 				<groupId>org.codehaus.cargo</groupId>
@@ -67,9 +67,13 @@ port number(s).
 			</plugin>
 
 ```
-##### Right click on the pom.xml file and RunAs --> Maven Build... --> In the Edit Configuration Windows, type Cargo:Run in the Goals Box 
+#### Right click on the pom.xml file and RunAs --> Maven Build... --> In the Edit Configuration Windows, type Cargo:Run in the Goals Box 
 
 ![image](https://user-images.githubusercontent.com/44376091/56437998-726c2680-62af-11e9-880c-a7e8c35bb8ac.png)
+
+#### Click Run and it will set up the Tomcat Sever 9 with default Port as 8080
+
+![image](https://user-images.githubusercontent.com/44376091/56438158-f45c4f80-62af-11e9-89b1-0ef219db6956.png)
 
 
 ## Author
