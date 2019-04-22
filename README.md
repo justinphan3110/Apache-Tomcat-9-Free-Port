@@ -5,7 +5,7 @@
  ### If you encounter the problems "Several ports (8005, 8080, 8009) required by Tomcat Server at localhost are already in use" in Eclipse when working with JSP, servlet:: 
   
  ```
-Several ports (8005, 8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running 
+Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running 
 
 in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the 
 
