@@ -114,7 +114,7 @@ public class Main extends Application {
 		alert.setContentText("No listening Port is using " + TomcatPort);
 		alert.showAndWait();
 	}
-
+	// Confirmation that the listening port has been killed
 	private void confirmationBox(String confirmation, String listeningPort) {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Done");
