@@ -1,5 +1,6 @@
 # Apache-Tomcat-9-Free-Port
- Free the Apache Tomcat  server port used by other LISTENING PORT (e.g 8080). Saved time instead of resetting the server / IDE
+ ### When using Tomcat 9, user usually forgot to stop the server before shutting down IDE(eg Eclipse) this will create a problem when will try to run it again on other trials
+ Free the Apache Tomcat  server port used by other LISTENING PORT (e.g 8080). Saved time instead of resetting the server / IDE / kill the port manually on CMD. 
 
  #### if you encounter the problems "Several ports (8005, 8080, 8009) required by Tomcat Server at localhost are already in use" in Eclipse when working with JSP, servlet:: 
   
