@@ -1,8 +1,8 @@
 # Apache-Tomcat-9-Free-Port
- ### When using Tomcat 9, user usually forgot to stop the server before shutting down IDE(eg Eclipse) this will create a problem when will try to run it again on other trials
- Free the Apache Tomcat  server port used by other LISTENING PORT (e.g 8080). Saved time instead of resetting the server / IDE / kill the port manually on CMD. 
+ #### When using Tomcat 9, user usually forgot to stop the server before shutting down IDE(eg Eclipse) this will create a problem when will try to run it again on other trials 
+ This application will Free the Apache Tomcat  server port used by other LISTENING PORT (e.g 8080). Saved time instead of resetting the server / IDE / kill the port manually on CMD. 
 
- #### if you encounter the problems "Several ports (8005, 8080, 8009) required by Tomcat Server at localhost are already in use" in Eclipse when working with JSP, servlet:: 
+ ### If you encounter the problems "Several ports (8005, 8080, 8009) required by Tomcat Server at localhost are already in use" in Eclipse when working with JSP, servlet:: 
   
  ```
 Several ports (8005, 8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running 
@@ -11,13 +11,17 @@ in another process, or a system process may be using the port. To start this ser
 
 port number(s).
 
-```
+ ```
  
  ![image](https://user-images.githubusercontent.com/44376091/56432439-5494c680-629b-11e9-8cc9-01711f52ac48.png)
 
 
  #### or when using the cargo:run maven build with cargo-maven2-plugins
-
+ ```
+[ERROR] Starting container [org.codehaus.cargo.container.tomcat.Tomcat9xEmbeddedLocalContainer@46349b95] failed
+org.codehaus.cargo.container.ContainerException: Port number 8080 (defined with the property cargo.servlet.port) is in use. 
+Please free it on the system or set it to a different port in the container configuration.
+ ```
 ![image](https://user-images.githubusercontent.com/44376091/56432480-86a62880-629b-11e9-9d75-d4761fe67ee2.png)
 
 
